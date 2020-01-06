@@ -20,21 +20,26 @@
   text-decoration:none;
   color: black;
   font-size: 1.5rem;
-   border: 3px solid lightgrey;
   border-radius: 10px;
+
   }
   
   .home{
   margin: 10px 0;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   }
   
+
+  
+
+  
   .back-drop{
   display:flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-around;
   align-items:center;
   font-size:1.8rem;
   height:90vh;
@@ -51,9 +56,11 @@
   }
   .box-nav1{
   background-color:white;
+
    border-radius:10px;
    padding:10px;
    opacity:0.8;
+
   
   }
   .boxN1-item {
@@ -69,3 +76,9 @@
   input{
   
   }
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
