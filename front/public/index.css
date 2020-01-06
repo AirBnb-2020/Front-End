@@ -18,11 +18,12 @@
   color: black;
   font-size: 1.5rem;
    border: 3px solid lightgrey;
-  border-radius: 3px;
+    border-radius:20px;
   }
   
   .home{
   margin: 10px 0;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -30,18 +31,19 @@
   
   
   div{
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   
   }
   
   .back-drop{
   display:flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items:center;
   font-size:1.8rem;
   height:90vh;
   background-color:#E0FFFF;
-  background-image:url('https://files.slack.com/files-pri/T4JUEB3ME-FS1B88PCN/2.jpeg');
+  background-image:url('background-img.jpeg');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
@@ -49,6 +51,7 @@
   }
   .box-nav1{
   background-color:white;
+  padding:.25%;
    border-radius:50px;
   
   }
@@ -58,3 +61,10 @@
   
   
   }
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
