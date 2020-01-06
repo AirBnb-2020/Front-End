@@ -3,22 +3,25 @@
     padding:0;
     margin:0;
     max-width:100%;
-   /* border:1px solid grey;
+   /*border:1px solid red;
     optional*/
+    font-family: 'Montserrat', sans-serif;
   }
   
   body {
     width:0 100%;
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
   
   
   .home-item{
-  padding:.5%;
+  padding:.5% 1%;
   text-decoration:none;
   color: black;
   font-size: 1.5rem;
-   border: 3px solid lightgrey;
-    border-radius:20px;
+  border-radius: 10px;
+
   }
   
   .home{
@@ -29,11 +32,9 @@
   justify-content: space-around;
   }
   
+
   
-  div{
-  /* border: 1px solid grey; */
-  
-  }
+
   
   .back-drop{
   display:flex;
@@ -49,19 +50,32 @@
   background-position:center;
   background-attachment:fixed;
   }
+  .back-drop img{
+    width:700px;
+    margin:40px;
+  }
   .box-nav1{
   background-color:white;
-  padding:.25%;
-   border-radius:50px;
+
+   border-radius:10px;
+   padding:10px;
+   opacity:0.8;
+
   
   }
   .boxN1-item {
   text-decoration:none;
   color: black;
-  
-  
   }
 
+  .search-box{
+  display:flex;
+  align-items: center;
+  }
+
+  input{
+  
+  }
 
 .search-box {
     display: flex;
